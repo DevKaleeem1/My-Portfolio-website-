@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width: 90%;    */
+  /* max-width: 1200px;  */
+  /* margin: auto; */
+}
+body{
+    background-color: #4875a5;
+    /* background-color: white; */
+    width: 90%;   /* har device pe adjust ho jayega */
+  max-width: 1200px; 
+  margin: auto;
+
+}
+.nav-sec{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    /* background-color: crimson; */
+
+}
+.name{
+    width: 10%;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-left: 0;
+}
+.nav-ops a {
+    color: white;
+    width: 70%;
+    text-decoration: none;
+    margin-right: 0px;
+    justify-content: right;
+}
+
+.hero-sec{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+ 
+}
+h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fd{
+    color: rgba(218, 166, 23, 0.829);
+    font-weight: 900;
+}
+p{
+    color: blanchedalmond;
+}
+
+.button {
+    margin-top: 50px;
+    width:400px;
+    height: 30PX;
+    display: flex;
+    
+    
+}
+.button1{
+    background-color: #24578c;
+    color: white;
+    border-radius: 10px;
+}
+
+.button1:hover{
+    background-color:#1172da;
+}
+.sec2{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+}
+
+.icon{
+    margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+
